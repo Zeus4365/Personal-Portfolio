@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    display: inline-block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 4rem;
+
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+}
+
+.nav {
+    display: none;
+}
+
+.burger {
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 50%;
+    display: inline-block;
+}
+
+.header__logo {
+    position: absolute;
+    display: inline-block;
+    margin-top: 16px;
+    right: 16px
+}
+
+.header__logo img {
+    position: relative;
+    display: inline-block;
+    margin-top: 0rem;
+    height: 2rem;
+}
+
+@media (min-width:64rem) {
+    .burger {
+        display: none;
+    }
+
+    .header {
+        display: inline-block;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 6rem;
+        z-index: 1;
+        width: 100%;
+        background-color: white;
+    }
+
+    .logo__wrapper {
+        display: inline-block;
+        position: absolute;
+    }
+
+    .header__logo img {
+        position: absolute;
+        display: inline-block;
+        margin-top: .5rem;
+        height: 3.4rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-bottom: 1rem;
+        z-index: 1000;
+    }
+
+    .nav {
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+    }
+
+    .nav__link {
+        display: inline-block;
+    }
+
+    .nav__links {
+        text-align: right;
+        position: relative;
+        top: 1rem;
+    }
+
+    .nav__link__item {
+        text-decoration: none;
+        font-size: 2rem;
+        padding: 0 1rem;
+        color: darkcyan;
+        font-weight: bold;
+        margin: 32px;
+    }
+
+    .nav__link__item:active,
+    .nav__link__item:hover {
+        text-decoration: underline 8px;
+        font-weight: bold;
+        border-radius: 8px;
+    }
+
+    .nav__link__item__btn {
+        text-decoration: none;
+        font-size: 2rem;
+        padding: .5rem 1rem;
+        background-color: teal;
+        color: white;
+        border-radius: 8px;
+        font-weight: bold;
+        margin: 2rem;
+    }
+
+    .nav__link__item__btn:active,
+    .nav__link__item__btn:hover {
+        background-color: rgb(3, 66, 66);
+        text-decoration: none;
+    }
+
+}
