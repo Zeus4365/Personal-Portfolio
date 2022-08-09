@@ -19,7 +19,7 @@ const Project = () => {
                     <img className={classes.portfolio_img} src={portfolio_Img}></img>
                     <div className={classes.portfolio__links}>
                         <div className={classes.portfolio__github}>
-                            <a className={classes.portfolio__linkdecoration} href=''>
+                            <a className={classes.portfolio__linkdecoration} href='https://github.com/Zeus4365/Personal-Portfolio'>
                                 <h3 className={classes.portfolio__linktitle}>GitHub</h3>
                             </a>
                         </div>
