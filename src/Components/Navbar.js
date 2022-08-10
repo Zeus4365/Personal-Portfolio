@@ -3,16 +3,17 @@ import classes from './Navbar.module.css';
 import logo from '../images/Zach Binowitz.jpg';
 import { useState } from 'react';
 import Hamburger from 'hamburger-react'
+import Modal from "./Modal";
 
 const Navbar = () => {
 
-    const [isOpen, setOpen] = useState(false)
+    const [toggle, setToggle] = useState(true);
 
 
     return (
         <header className={classes.header}>
             <div className={classes.burger}>
-                <Hamburger size={48} direction='right' toggled={isOpen} toggle={setOpen} type='Tilt'></Hamburger>
+                <Hamburger size={48} direction='right' type='Tilt' onToggle={() => setToggle(!toggle)}/>
             </div>
             <nav className={classes.nav}>
                 <div className={classes.logo__wrapper}>
@@ -36,6 +37,7 @@ const Navbar = () => {
                     </li>
                 </ul>
             </nav>
+            {!toggle && <Modal/>}
         </header>
     );
 };

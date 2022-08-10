@@ -24,7 +24,7 @@ const Project = () => {
                             </a>
                         </div>
                         <div className={classes.portfolio__livelink}>
-                            <a className={classes.portfolio__linkdecoration} href=''>
+                            <a className={classes.portfolio__linkdecoration} href='https://github.com/Zeus4365/Personal-Portfolio'>
                                 <h3 className={classes.portfolio__linktitle}>Live Link</h3>
                             </a>
                         </div>
