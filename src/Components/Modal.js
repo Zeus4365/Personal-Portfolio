@@ -22,7 +22,9 @@ const Modal = () => {
                     </div>
                 </div>
                 <div className={classes.modal__contactbtn}>
-                    <a><h3>Get In Touch</h3></a>
+                    <a href='mailto: zbinowitz@gmail.com'>
+                        <h3 className={classes.modal__contactbtn__touch}>Get In Touch</h3>
+                    </a>
                 </div>
             </div>
         </div>

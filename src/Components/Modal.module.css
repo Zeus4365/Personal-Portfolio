@@ -10,6 +10,7 @@
     background-color: rgb(247, 244, 244);
     width: 35%;
     height: 100%;
+    text-decoration: none;
 }
 
 .modal__navdecoration {
@@ -45,6 +46,8 @@
     margin-right: 16px;
     padding: 4px;
     font-size: 1.2rem;
+    position: relative;
+    z-index: 100;
 }
 
 .modal__contactbtn:focus,
@@ -55,6 +58,10 @@
 .modal__contactbtn h3 {
     margin-top: .5rem;
     margin-bottom: .5rem;
+}
+
+.modal__contactbtn a h3 {
+    text-decoration: none;
 }
 
 .modal__line {
