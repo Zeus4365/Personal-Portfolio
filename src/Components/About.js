@@ -8,26 +8,29 @@ const About = () => {
                     <div className={classes.about__paragraphs}>
                         <h2 className={classes.subtitle}>Get to know me!</h2>
                         <p className={classes.about__aboutme}>
-                            I am a full-stack web developer with a degree in Finance from the Kelley School of Business. 
-                            I create websites that are fast, easy to use, and built with best practices.
+                            I am a full-stack web developer with a degree in Finance from the <div className={classes.bold}>Kelley School of Business</div>. 
                         </p>
                         <p className={classes.about__aboutme}>
-                            I have experience in frontend and backend web development. I enjoy building experiences that
-                            make the web more accessible for the greatest amount of users.
+                            For the past two years I've been obsessed with <div className={classes.bold}>Web3</div> and <div className={classes.bold}>Decentralized Finance</div>, so much so that I started
+                            to teach myself web development.   
                         </p>
                         <p className={classes.about__aboutme}>
-                            In my free time I research web3 and decentralized technologies because I want to affect change in the world.
-                            I believe that the decentralized web will provide individuals with stronger global property rights and eventually
-                            help create a freer, more just world. 
+                            Most of my web development knowledge was gained through <div className={classes.bold}>Udemy</div> courses and <div className={classes.bold}>freeCodeCamp</div>, however, my major required
+                            that I take a formal course on database management. I'm always to eager to learn about new technologies and develop my skillset.
                         </p>
                     </div>
                 <div className={classes.skillbox}>
-                <h2 className={classes.subtitle}>My Skills</h2>
+                    <h2 className={classes.subtitle}>My Skills</h2>
                         <ul className={classes.skillbox__list}>
                                 <li className={classes.skill}>Javascript</li>
                                 <li className={classes.skill}>Semantic HTML</li>
-                                <li className={classes.skill}>Responsive CSS</li>
+                                <li className={classes.skill}>CSS3</li>
                                 <li className={classes.skill}>React</li>
+                                <li className={classes.skill}>GitHub</li>
+                                <li className={classes.skill}>Git</li>
+                                <li className={classes.skill}>Firebase</li>
+                                <li className={classes.skill}>Responsive Web Design</li>
+                                <li className={classes.skill}>VS Code</li>
                         </ul>
                 </div>
                 <div className={classes.title__line}></div>

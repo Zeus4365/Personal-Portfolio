@@ -77,6 +77,11 @@
     text-align: left;
 }
 
+.bold {
+    font-weight: bold;
+    display: inline-block;
+}
+
 @media (min-width: 64rem) {
 
     .about__body {
@@ -119,7 +124,7 @@
 
     .about__aboutme {
         text-align: left;
-        font-size: 2.5rem;
+        font-size: 1.8rem;
     }
 
     .skillbox {

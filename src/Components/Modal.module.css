@@ -61,7 +61,9 @@
 }
 
 .modal__contactbtn a h3 {
-    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    margin: 0;
 }
 
 .modal__line {
@@ -74,4 +76,10 @@
     margin: 0;
     padding-top: 16px;
     padding-bottom: 16px;
+}
+
+.modal__contactlink {
+    text-decoration: none;
+    color: white;
+    margin: 0;
 }
